@@ -1,0 +1,17 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+	keymap {
+		compatible = "zmk,keymap";
+
+		default_layer {
+// |           |  MX1(up)  |            |     | MX6(B) | MX3(A) |
+// | MX4(left) | MX5(down) | MX2(right) |     |        |        |
+            bindings = <
+              &kp UP               &kp B  &kp A
+    &kp LEFT  &kp DOWN  &kp RIGHT
+            >;
+		};
+	};
+};

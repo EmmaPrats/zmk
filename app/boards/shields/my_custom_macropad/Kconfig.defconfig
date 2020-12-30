@@ -1,0 +1,9 @@
+if SHIELD_MY_CUSTOM_MACROPAD
+
+config ZMK_KEYBOARD_NAME
+	default "My Custom Macropad"
+
+config USB
+	default y
+
+endif
